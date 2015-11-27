@@ -66,6 +66,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\HospitalDB.mdf" />
+    <Content Include="App_Data\HospitalDB_log.ldf">
+      <DependentUpon>HospitalDB.mdf</DependentUpon>
+    </Content>
     <Content Include="Assign + Discharge  Helen.aspx" />
     <Content Include="Doctors page Bin.aspx" />
     <Content Include="Home page Miranda.aspx" />
