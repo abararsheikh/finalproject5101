@@ -20,13 +20,12 @@
     </form>
     
     <div class="search-tabs">
-        <input id="lblDoctors" type="radio" name="type" checked />
+        <input id="lblDoctors" type="radio" name="type" checked="checked" />
         <label for="lblDoctors" class="tab"
             ng-click="search.setList('doctors')"
             ng-class="{'tab-selected': search.currentList==='doctors'}">
             
             Doctors
-
         </label>
 
         <input id="lblPatients" type="radio" name="type" />
@@ -35,10 +34,11 @@
             ng-class="{'tab-selected': search.currentList==='patients'}">
             
             Patients
-
         </label>
     </div>
     <ul>
+        <p ng-if="search.isLoading">Loading..</p>
+
         <li ng-repeat="person in search.list |
                     filter:search.searchFilter |
                     orderBy: search.first_name |

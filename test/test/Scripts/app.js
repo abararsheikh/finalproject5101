@@ -4,20 +4,20 @@
 angular.module('doctorSearch', ['ngAnimate'])
 .controller('SearchController', function ($http) {
     var search = this;
-    search.currentList = 'doctors';
     
     search.setList = function (listName) {
         search.currentList = listName;
+        search.isLoading = true;
         $http({
             url: 'getData.aspx',
             method: 'GET',
             params: { t: listName }
         }).then(function (response) {
+            search.isLoading = false;
             search.list = response.data;
         });
     };
-
-    search.setList(search.currentList);
+    search.setList('doctors');
 
     search.searchText = '';
     search.toggleDetail = function (person) {

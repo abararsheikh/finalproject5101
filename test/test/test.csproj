@@ -76,7 +76,6 @@
     </Content>
     <Content Include="Assign + Discharge  Helen.aspx" />
     <Content Include="css\search.css" />
-    <Content Include="data.aspx" />
     <Content Include="Doctors page Bin.aspx" />
     <Content Include="getData.aspx" />
     <Content Include="Home page Miranda.aspx" />
@@ -109,13 +108,6 @@
     </Compile>
     <Compile Include="Assign + Discharge  Helen.aspx.designer.cs">
       <DependentUpon>Assign + Discharge  Helen.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="data.aspx.cs">
-      <DependentUpon>data.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="data.aspx.designer.cs">
-      <DependentUpon>data.aspx</DependentUpon>
     </Compile>
     <Compile Include="Doctors page Bin.aspx.cs">
       <DependentUpon>Doctors page Bin.aspx</DependentUpon>
@@ -160,6 +152,7 @@
     <Compile Include="Search form Yi.aspx.designer.cs">
       <DependentUpon>Search form Yi.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Yi.cs" />
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>
