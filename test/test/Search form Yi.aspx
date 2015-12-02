@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="doctorSearch">
 <head runat="server">
     <title></title>
 
@@ -41,29 +41,28 @@
     <ul>
         <li ng-repeat="person in search.list |
                     filter:search.searchFilter |
-                    orderBy: search.f_name |
+                    orderBy: search.first_name |
                     limitTo : search.limit"
             ng-click="search.toggleDetail(person)"
             ng-class="{'show-detail': person.showDetail}">
 
             <div class="brief">
                 <p class="name">
-                    {{person.f_name}} {{person.l_name}}
+                    {{person.first_name}} {{person.last_name}}
                 </p>
                 <p class="doctor-specialty"
-                    ng-if="person.specialty"> 
+                    ng-if="person.speciality"> 
                     
-                    {{person.specialty}}
+                    {{person.speciality}}
 
                 </p>
             </div>
 
-            <p class="description"
-                ng-if="person.description">
-                
-                {{person.description}}
-
-            </p>
+            <div class="description">
+                <p>{{person.first_name}} {{person.last_name}}</p>
+                <p ng-show="person.phone"> {{person.phone}}</p>
+                <p ng-show="person.office">Office: {{person.office}}</p>
+            </div>
         </li>
     </ul>
 </body>

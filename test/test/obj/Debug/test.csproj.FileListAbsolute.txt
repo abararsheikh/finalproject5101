@@ -18,3 +18,5 @@ G:\School\5101\finalproject\finalproject5101\test\test\bin\Microsoft.CodeDom.Pro
 G:\School\5101\finalproject\finalproject5101\test\test\obj\Debug\test.csprojResolveAssemblyReference.cache
 G:\School\5101\finalproject\finalproject5101\test\test\obj\Debug\test.dll
 G:\School\5101\finalproject\finalproject5101\test\test\obj\Debug\test.pdb
+G:\School\5101\finalproject\finalproject5101\test\test\bin\Newtonsoft.Json.dll
+G:\School\5101\finalproject\finalproject5101\test\test\bin\Newtonsoft.Json.xml
