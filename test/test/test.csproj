@@ -71,10 +71,18 @@
       <DependentUpon>HospitalDB.mdf</DependentUpon>
     </Content>
     <Content Include="Assign + Discharge  Helen.aspx" />
+    <Content Include="css\search.css" />
     <Content Include="Doctors page Bin.aspx" />
     <Content Include="Home page Miranda.aspx" />
     <Content Include="LogIn page Miranda.aspx" />
     <Content Include="packages.config" />
+    <Content Include="Scripts\angular-animate.js" />
+    <Content Include="Scripts\angular-animate.min.js" />
+    <Content Include="Scripts\angular-mocks.js" />
+    <Content Include="Scripts\angular.js" />
+    <Content Include="Scripts\angular.min.js" />
+    <Content Include="Scripts\angular.min.js.map" />
+    <Content Include="Scripts\angular-animate.min.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -84,6 +92,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Patients page Abrar.aspx" />
+    <Content Include="Scripts\app.js" />
     <Content Include="Search form Yi.aspx" />
     <Content Include="test.aspx" />
     <Content Include="Web.config" />
@@ -140,6 +149,7 @@
       <DependentUpon>test.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
