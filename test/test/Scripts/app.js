@@ -11,7 +11,9 @@ angular.module('doctorSearch', ['ngAnimate'])
         $http({
             url: 'getData.aspx',
             method: 'GET',
-            params: { t: listName }
+            params: {
+                t: listName
+            }
         }).then(function (response) {
             search.isLoading = false;
             search.list = response.data;
@@ -23,6 +25,7 @@ angular.module('doctorSearch', ['ngAnimate'])
     search.toggleDetail = function (person) {
         person.showDetail = !person.showDetail;
     };
+
     search.searchFilter = function (person) {
         if (search.searchText === ''){
             return true;
@@ -31,9 +34,12 @@ angular.module('doctorSearch', ['ngAnimate'])
                 person.last_name.toLowerCase().indexOf(search.searchText.toLowerCase()) !== -1;
         }
     };
-});
+})
 
 
 
+
+
+;
 //end
 })();

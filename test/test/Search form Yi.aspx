@@ -36,13 +36,21 @@
             Patients
         </label>
     </div>
+    <div class="searchOptions">
+        <input id="dateIn" type="checkbox" name="searchOption"
+            ng-model="search.showDate" 
+            ng-click="search.showDate"
+            ng-if="search.currentList=='patients'"/>
+        <label for="dateIn"
+            ng-if="search.currentList=='patients'">admission date</label>
+    </div>
+
     <ul>
         <p ng-if="search.isLoading">Loading..</p>
 
         <li ng-repeat="person in search.list |
-                    filter:search.searchFilter |
-                    orderBy: search.first_name |
-                    limitTo : search.limit"
+                    filter:search.searchText |
+                    orderBy: search.first_name"
             ng-click="search.toggleDetail(person)"
             ng-class="{'show-detail': person.showDetail}">
 
@@ -56,6 +64,8 @@
                     {{person.speciality}}
 
                 </p>
+                <p ng-if="search.showDate && person.date_in"> Admission Date: {{person.date_in | date:longdate }}</p>
+               
             </div>
 
             <div class="description">

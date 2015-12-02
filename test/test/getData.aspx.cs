@@ -16,10 +16,10 @@ namespace test
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+
             Yi yi = new Yi();
             yi.TableName = Request.QueryString["t"];
-
+           
             try
             {
                 yi.setQueryString();
@@ -29,9 +29,6 @@ namespace test
             {
                 Response.Write(ex);
             }
-
-            
-
             
         }
     }

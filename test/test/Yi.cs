@@ -16,11 +16,13 @@ namespace test
         private string _tableName;
         private string cs = ConfigurationManager.ConnectionStrings["cs_HospitalDB"].ConnectionString;
         private string _query = "select * from";
+
         public string TableName
         {
             set { _tableName = value; }
         }
-     
+        
+
         public void setQueryString()
         {
             if(_tableName == "doctors")
@@ -36,7 +38,7 @@ namespace test
                 throw new Exception("invalid table name");
             }
         }
-
+    
         public string getJsonData()
         {
             using (SqlConnection con = new SqlConnection(cs))
