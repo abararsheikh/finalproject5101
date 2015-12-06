@@ -1,18 +1,8 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Search form Yi.aspx.cs" Inherits="test.Search_form_Yi" %>
+﻿<%@ Page MasterPageFile="~/BRDHC.Master" Language="C#" AutoEventWireup="true" CodeBehind="Search form Yi.aspx.cs" Inherits="test.Search_form_Yi" %>
 
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml" ng-app="doctorSearch">
-<head runat="server">
-    <title></title>
-
-    <script src="Scripts/angular.min.js"></script>
-    <script src="Scripts/angular-animate.min.js"></script>
-    <script src="Scripts/app.js"></script>
-    <link href="css/search.css" rel="stylesheet" />
-</head>
-<body ng-controller="SearchController as search">
-    <div class="search">
+    <asp:Content ContentPlaceHolderID="content" runat="server">
+         <div class="search"
+        ng-app="doctorSearch" ng-controller="SearchController as search">
         <form id="form1" runat="server">
             <input class="searchBar" id="searchBox" type="text" placeholder="search.."
                 ng-model="search.searchText" />
@@ -75,5 +65,5 @@
             </li>
         </ul>
     </div>
-</body>
-</html>
+    </asp:Content>
+

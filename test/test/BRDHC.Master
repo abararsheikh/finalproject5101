@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="BRDHC.master.cs" Inherits="test.BRDHC" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Blind River</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/angular-animate.min.js"></script>
+    <script src="Scripts/app.js"></script>
+    <link href="css/search.css" rel="stylesheet" />
+</head>
+<body>
+
+    <header class="cpHeader">
+        <h1><a href="#">My BRDHC</a></h1>
+        <div class="userDropdown">
+            <p class="userDropdown-name" >
+                user name
+            </p>
+            <p class="userDropdown-description">
+                description words
+            </p>
+        </div>
+
+        <div class="bg-animation">
+            <!-- 15 spans -->
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <main>
+        <asp:ContentPlaceHolder id="content" runat="server">
+
+        </asp:ContentPlaceHolder>
+
+    </main>
+    
+</body>
+</html>
