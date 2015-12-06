@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Patients page Abrar.aspx.cs" Inherits="test.Patients_page_Abrar" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Patients_Abrar.aspx.cs" Inherits="test.Patients_page_Abrar" %>
 
 <!DOCTYPE html>
 

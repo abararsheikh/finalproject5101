@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Home page Miranda.aspx.cs" Inherits="test.Home_page_Miranda" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Homepage_Miranda.aspx.cs" Inherits="test.Home_page_Miranda" %>
 
 <!DOCTYPE html>
 

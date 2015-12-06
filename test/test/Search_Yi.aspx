@@ -1,4 +1,4 @@
-﻿<%@ Page MasterPageFile="~/BRDHC.Master" Language="C#" AutoEventWireup="true" CodeBehind="Search form Yi.aspx.cs" Inherits="test.Search_form_Yi" %>
+﻿<%@ Page MasterPageFile="~/BRDHC.Master" Language="C#" AutoEventWireup="true" CodeBehind="Search_Yi.aspx.cs" Inherits="test.Search_form_Yi" %>
 
     <asp:Content ContentPlaceHolderID="content" runat="server">
          <div class="search"

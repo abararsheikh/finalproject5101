@@ -74,12 +74,12 @@
     <Content Include="App_Data\HospitalDB_log.ldf">
       <DependentUpon>HospitalDB.mdf</DependentUpon>
     </Content>
-    <Content Include="Assign + Discharge  Helen.aspx" />
+    <Content Include="Assign_Discharge_Helen.aspx" />
     <Content Include="css\search.css" />
-    <Content Include="Doctors page Bin.aspx" />
+    <Content Include="Doctors_Bin.aspx" />
     <Content Include="getData.aspx" />
-    <Content Include="Home page Miranda.aspx" />
-    <Content Include="LogIn page Miranda.aspx" />
+    <Content Include="Homepage_Miranda.aspx" />
+    <Content Include="LogIn_Miranda.aspx" />
     <Content Include="packages.config" />
     <Content Include="Scripts\angular-animate.js" />
     <Content Include="Scripts\angular-animate.min.js" />
@@ -97,18 +97,18 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Patients page Abrar.aspx" />
+    <Content Include="Patients_Abrar.aspx" />
     <Content Include="Scripts\app.js" />
-    <Content Include="Search form Yi.aspx" />
+    <Content Include="Search_Yi.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assign + Discharge  Helen.aspx.cs">
-      <DependentUpon>Assign + Discharge  Helen.aspx</DependentUpon>
+    <Compile Include="Assign_Discharge_Helen.aspx.cs">
+      <DependentUpon>Assign_Discharge_Helen.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Assign + Discharge  Helen.aspx.designer.cs">
-      <DependentUpon>Assign + Discharge  Helen.aspx</DependentUpon>
+    <Compile Include="Assign_Discharge_Helen.aspx.designer.cs">
+      <DependentUpon>Assign_Discharge_Helen.aspx</DependentUpon>
     </Compile>
     <Compile Include="BRDHC.Master.cs">
       <DependentUpon>BRDHC.Master</DependentUpon>
@@ -117,12 +117,12 @@
     <Compile Include="BRDHC.Master.designer.cs">
       <DependentUpon>BRDHC.Master</DependentUpon>
     </Compile>
-    <Compile Include="Doctors page Bin.aspx.cs">
-      <DependentUpon>Doctors page Bin.aspx</DependentUpon>
+    <Compile Include="Doctors_Bin.aspx.cs">
+      <DependentUpon>Doctors_Bin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Doctors page Bin.aspx.designer.cs">
-      <DependentUpon>Doctors page Bin.aspx</DependentUpon>
+    <Compile Include="Doctors_Bin.aspx.designer.cs">
+      <DependentUpon>Doctors_Bin.aspx</DependentUpon>
     </Compile>
     <Compile Include="getData.aspx.cs">
       <DependentUpon>getData.aspx</DependentUpon>
@@ -131,34 +131,34 @@
     <Compile Include="getData.aspx.designer.cs">
       <DependentUpon>getData.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Home page Miranda.aspx.cs">
-      <DependentUpon>Home page Miranda.aspx</DependentUpon>
+    <Compile Include="Homepage_Miranda.aspx.cs">
+      <DependentUpon>Homepage_Miranda.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Home page Miranda.aspx.designer.cs">
-      <DependentUpon>Home page Miranda.aspx</DependentUpon>
+    <Compile Include="Homepage_Miranda.aspx.designer.cs">
+      <DependentUpon>Homepage_Miranda.aspx</DependentUpon>
     </Compile>
-    <Compile Include="LogIn page Miranda.aspx.cs">
-      <DependentUpon>LogIn page Miranda.aspx</DependentUpon>
+    <Compile Include="LogIn_Miranda.aspx.cs">
+      <DependentUpon>LogIn_Miranda.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="LogIn page Miranda.aspx.designer.cs">
-      <DependentUpon>LogIn page Miranda.aspx</DependentUpon>
+    <Compile Include="LogIn_Miranda.aspx.designer.cs">
+      <DependentUpon>LogIn_Miranda.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Patients page Abrar.aspx.cs">
-      <DependentUpon>Patients page Abrar.aspx</DependentUpon>
+    <Compile Include="Patients_Abrar.aspx.cs">
+      <DependentUpon>Patients_Abrar.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Patients page Abrar.aspx.designer.cs">
-      <DependentUpon>Patients page Abrar.aspx</DependentUpon>
+    <Compile Include="Patients_Abrar.aspx.designer.cs">
+      <DependentUpon>Patients_Abrar.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Search form Yi.aspx.cs">
-      <DependentUpon>Search form Yi.aspx</DependentUpon>
+    <Compile Include="Search_Yi.aspx.cs">
+      <DependentUpon>Search_Yi.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Search form Yi.aspx.designer.cs">
-      <DependentUpon>Search form Yi.aspx</DependentUpon>
+    <Compile Include="Search_Yi.aspx.designer.cs">
+      <DependentUpon>Search_Yi.aspx</DependentUpon>
     </Compile>
     <Compile Include="Yi.cs" />
   </ItemGroup>
