@@ -43,6 +43,7 @@ namespace test
         {
             using (SqlConnection con = new SqlConnection(cs))
             {
+                
                 SqlCommand cmd = new SqlCommand(_query, con);
                 con.Open();
                 using (SqlDataReader reader = cmd.ExecuteReader())
