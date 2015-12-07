@@ -20,3 +20,25 @@ G:\School\5101\finalproject\finalproject5101\test\test\obj\Debug\test.dll
 G:\School\5101\finalproject\finalproject5101\test\test\obj\Debug\test.pdb
 G:\School\5101\finalproject\finalproject5101\test\test\bin\Newtonsoft.Json.dll
 G:\School\5101\finalproject\finalproject5101\test\test\bin\Newtonsoft.Json.xml
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\bin\roslyn\csc.exe
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\bin\roslyn\System.Collections.Immutable.dll
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\bin\roslyn\System.Reflection.Metadata.dll
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\bin\roslyn\vbc.exe
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\bin\roslyn\VBCSCompiler.exe
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\bin\roslyn\VBCSCompiler.exe.config
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\bin\test.dll.config
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\bin\test.dll
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\bin\test.pdb
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\bin\Newtonsoft.Json.dll
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\bin\Newtonsoft.Json.xml
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\obj\Debug\test.csprojResolveAssemblyReference.cache
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\obj\Debug\test.dll
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\obj\Debug\test.pdb
