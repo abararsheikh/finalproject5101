@@ -1,16 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="LogIn_Miranda.aspx.cs" Inherits="test.LogIn_page_Miranda" %>
+﻿<%@ Page  MasterPageFile="~/BRDHC.Master" Language="C#" AutoEventWireup="true" CodeBehind="LogIn_Miranda.aspx.cs" Inherits="test.LogIn_page_Miranda" %>
 
-<!DOCTYPE html>
+<asp:Content ContentPlaceHolderID="content" runat="server">
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-    <div>
-    
-    </div>
-    </form>
-</body>
-</html>
+</asp:Content>
