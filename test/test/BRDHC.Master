@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="BRDHC.master.cs" Inherits="test.BRDHC" %>
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="BRDHC.master.cs" Inherits="test.BRDHC" %>
 
 <!DOCTYPE html>
 
