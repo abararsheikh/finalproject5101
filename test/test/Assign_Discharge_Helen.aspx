@@ -17,7 +17,7 @@
         Enter doctors surname:<asp:TextBox ID="txtDocSurname" runat="server"></asp:TextBox>
     </p>
     <p>
-        <asp:Button ID="btnAssign" runat="server" OnClick="btnAssign_Click" Text="Assign" />
+        <asp:Button class="button" ID="btnAssign" runat="server" OnClick="btnAssign_Click" Text="Assign" />
     </p>
 </form>
 </asp:Content>

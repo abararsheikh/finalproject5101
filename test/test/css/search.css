@@ -1,3 +1,19 @@
+.button{
+  position: relative;
+  display: inline-block;
+  top: 15px;
+  background-color: grey;
+  color: white;
+  padding: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.button:hover{
+    background-color: deepskyblue;
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
 }

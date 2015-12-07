@@ -21,6 +21,7 @@ namespace test
 
         protected void btnAssign_Click(object sender, EventArgs e)
         {
+            /*
             int productId = Convert.ToInt32(txtProdId.Text);
 
             string selectQuery = "Select ProductID, ProductName, UnitPrice, UnitsInStock from Products Where ProductID = @ProductId;";
@@ -51,8 +52,9 @@ namespace test
                     lblMessage.Text = "Product with ID = " + productId + "was NOT updated in the DB";
                     lblMessage.ForeColor = System.Drawing.Color.Red;
                 }
+                
             }
-
+*/
         }
     }
 }
