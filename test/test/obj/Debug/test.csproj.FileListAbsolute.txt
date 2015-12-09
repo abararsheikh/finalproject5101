@@ -42,3 +42,25 @@ E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\
 E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\obj\Debug\test.csprojResolveAssemblyReference.cache
 E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\obj\Debug\test.dll
 E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\obj\Debug\test.pdb
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\bin\roslyn\csc.exe
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\bin\roslyn\vbc.exe
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\bin\test.dll.config
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\bin\test.dll
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\bin\test.pdb
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\bin\Newtonsoft.Json.dll
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\bin\Newtonsoft.Json.xml
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\obj\Debug\test.csprojResolveAssemblyReference.cache
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\obj\Debug\test.dll
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\obj\Debug\test.pdb

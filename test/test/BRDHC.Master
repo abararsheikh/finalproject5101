@@ -55,11 +55,11 @@
                 <li><a href="Search_Yi.aspx">Search</a></li>
             </ul>
         </div>
+        <div class="content">
+            <asp:ContentPlaceHolder id="content" runat="server">
 
-        <asp:ContentPlaceHolder id="content" runat="server">
-
-        </asp:ContentPlaceHolder>
-
+            </asp:ContentPlaceHolder>
+        </div>
     </main>
     
 </body>

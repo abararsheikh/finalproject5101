@@ -702,3 +702,7 @@ main {
 main > .side-menu {
   background: dimgrey;
 }
+
+.content{
+    padding: 2em;
+}
