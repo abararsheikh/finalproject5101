@@ -19,12 +19,12 @@ body{
 }
 
 /* search bar */
-form {
-  max-width: 500px;
+.search form {
+  width: 500px;
   margin: 0 auto;
 }
 
-input[type="text"] {
+.search input[type="text"] {
   font-size: 1.5em;
   padding: 0.5em;
   display: block;
@@ -52,7 +52,7 @@ form {
   overflow: hidden;
 }
 
-input ~ span {
+.search input ~ span {
   content: "";
   position: absolute;
   top: 0;
@@ -62,7 +62,7 @@ input ~ span {
   border-top: 2px solid lightskyblue;
 }
 
-input ~ .leftborder {
+.search input ~ .leftborder {
   left: 50%;
   -webkit-transform: translate(-150px, 100%);
       -ms-transform: translate(-150px, 100%);
@@ -73,7 +73,7 @@ input ~ .leftborder {
   transition: width 0.5s linear, transform 0.5s linear 0.5s, -webkit-transform 0.5s linear 0.5s;
 }
 
-input ~ .rightborder {
+.search input ~ .rightborder {
   right: 50%;
   -webkit-transform: translate(150px, 100%) rotateY(180deg);
           transform: translate(150px, 100%) rotateY(180deg);
@@ -83,7 +83,7 @@ input ~ .rightborder {
   transition: width 0.5s linear, transform 0.5s linear 0.5s, -webkit-transform 0.5s linear 0.5s;
 }
 
-input:focus ~ .leftborder {
+.search input:focus ~ .leftborder {
   width: 150px;
   -webkit-transform: translate(-150px, 0);
       -ms-transform: translate(-150px, 0);
@@ -94,7 +94,7 @@ input:focus ~ .leftborder {
   transition: transform 0.5s linear 0.5s, width 0.5s linear 1s, -webkit-transform 0.5s linear 0.5s;
 }
 
-input:focus ~ .rightborder {
+.search input:focus ~ .rightborder {
   width: 150px;
   -webkit-transform: translate(150px, 0) rotateY(180deg);
           transform: translate(150px, 0) rotateY(180deg);
@@ -705,4 +705,5 @@ main > .side-menu {
 
 .content{
     padding: 2em;
+    flex: 1;
 }

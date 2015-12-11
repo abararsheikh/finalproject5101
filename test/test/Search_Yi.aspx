@@ -1,8 +1,8 @@
 ﻿<%@ Page MasterPageFile="~/BRDHC.Master" Language="C#" AutoEventWireup="true" CodeBehind="Search_Yi.aspx.cs" Inherits="test.Search_form_Yi" %>
 
     <asp:Content ContentPlaceHolderID="content" runat="server">
-         <div class="search"
-        ng-app="doctorSearch" ng-controller="SearchController as search">
+        <div class="search"
+            ng-app="doctorSearch" ng-controller="SearchController as search">
         <form id="form1" runat="server">
             <input class="searchBar" id="searchBox" type="text" placeholder="search.."
                 ng-model="search.searchText" />

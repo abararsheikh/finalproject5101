@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
@@ -70,6 +70,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AddUsers_Miranda.aspx" />
     <Content Include="App_Data\HospitalDB.mdf" />
     <Content Include="App_Data\HospitalDB_log.ldf">
       <DependentUpon>HospitalDB.mdf</DependentUpon>
@@ -103,6 +104,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddUsers_Miranda.aspx.cs">
+      <DependentUpon>AddUsers_Miranda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddUsers_Miranda.aspx.designer.cs">
+      <DependentUpon>AddUsers_Miranda.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Assign_Discharge_Helen.aspx.cs">
       <DependentUpon>Assign_Discharge_Helen.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
