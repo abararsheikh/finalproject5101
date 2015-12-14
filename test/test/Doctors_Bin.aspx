@@ -50,13 +50,13 @@
                 </td>
             </tr>
             <tr>
-                <td>Avaulability:</td>
+                <td>Availibility:</td>
                 <td>
                     <asp:TextBox ID="AvaulabilityId" runat="server"></asp:TextBox>
                 </td>
             </tr>
             <tr>
-                <td>Come_out_date:</td>
+                <td>Discharge Date:</td>
                 <td>
                     <asp:TextBox ID="ComeOutDate" runat="server"></asp:TextBox>
                 </td>
