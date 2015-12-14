@@ -13,6 +13,7 @@ namespace test
     public partial class Assign___Discharge__Helen : System.Web.UI.Page
     {
         string cs = ConfigurationManager.ConnectionStrings["cs_HospitalDb"].ConnectionString;
+        bool check = false;
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -37,7 +38,8 @@ namespace test
                     lblMessage2.Text = "This doctor exists.";
                     lblMessage2.ForeColor = Color.Green;
 
-                    if (Assign(ohip, doctorNum)) {
+                    if (Assign(ohip, doctorNum))
+                    {
                         lblMessage3.Text = "Doctor has been assigned to patient! Thank you for your transaction. HAVE A NICE DAY!";
                         lblMessage3.ForeColor = Color.Green;
                     }
@@ -64,6 +66,66 @@ namespace test
             }
 
         }
+
+
+
+        protected void btnCheck_Click(object sender, EventArgs e)
+        {
+            string ohip = txtOhip.Text.Trim();
+            
+            if (IsParientExists(ohip))
+            {
+                lblCheck.Text = "This patient exists.";
+                lblCheck.ForeColor = Color.Green;
+                check = true;
+                Session["check"] = true;
+            }
+            else
+            {
+                lblCheck.Text = "Please make sure you added OHIP number correctly";
+                lblCheck.ForeColor = Color.Red;
+                check = false;
+                Session["check"] = false;
+            }
+
+
+        }
+
+        protected void btnDischarge_Click(object sender, EventArgs e)
+        {
+            if ((bool)Session["check"] == true)
+            {
+                string date = txtDate.Text.Trim();
+                string ohip = txtOhip.Text.Trim();
+
+                string query = "Update tblPatients set date_out = @Date   where OHIP = @Ohip;";
+
+                using (SqlConnection conn = new SqlConnection(cs))
+                {
+                    SqlCommand cmd = new SqlCommand(query, conn);
+
+                    cmd.Parameters.AddWithValue("@Date", date);
+                    cmd.Parameters.AddWithValue("@Ohip", ohip);
+
+                    conn.Open();
+
+                    int rowsUpdated = cmd.ExecuteNonQuery();
+
+                    if (rowsUpdated == 1)
+                    {
+                        lblMessage.Text = "Patient has been discharged from hospital successfully. Thank you for your transaction. HAVE A NICE DAY!";
+                        lblMessage.ForeColor = Color.Green;
+                    }
+                    else
+                    {
+                        lblMessage.Text = "Unfortunately your transaction could not be approved. Contact your programmer for help.";
+                        lblMessage.ForeColor = Color.Red;
+                    }
+
+                }
+            }
+        }
+
 
 
         // создание отдельной функции -проверки на существование пациента
@@ -144,20 +206,25 @@ namespace test
         // создание отдельной функции - привязки доктора к пациенту
         private bool Assign(string ohip, int docnum)
         {
-            string selectQuery = "Insert into tblPatients(doctor_id) values (@DocId) where OHIP = @PatNumber";
+            string selectQuery = "Update tblPatients SET doctor_id = @DocId where OHIP = @PatNumber";
 
             using (SqlConnection conn = new SqlConnection(cs))
             {
                 SqlCommand cmd = new SqlCommand(selectQuery, conn);
-                cmd.Parameters.AddWithValue("@DocId", docnum);
                 cmd.Parameters.AddWithValue("@PatNumber", ohip);
+                cmd.Parameters.AddWithValue("@DocId", docnum);
+
                 conn.Open();
                 int rowsInserted = cmd.ExecuteNonQuery();
 
-                if (rowsInserted == 1) {return true; }
+                if (rowsInserted == 1) { return true; }
                 else { return false; }
             }
         }
 
+        protected void DischargeCalendar_SelectionChanged(object sender, EventArgs e)
+        {
+            txtDate.Text = DischargeCalendar.SelectedDate.ToString();
+        }
     }
 }
