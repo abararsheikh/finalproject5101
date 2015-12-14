@@ -79,6 +79,7 @@
     <Content Include="css\search.css" />
     <Content Include="Doctors_Bin.aspx" />
     <Content Include="getData.aspx" />
+    <Content Include="Global.asax" />
     <Content Include="Homepage_Miranda.aspx" />
     <Content Include="LogIn_Miranda.aspx" />
     <Content Include="packages.config" />
@@ -138,6 +139,9 @@
     </Compile>
     <Compile Include="getData.aspx.designer.cs">
       <DependentUpon>getData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Homepage_Miranda.aspx.cs">
       <DependentUpon>Homepage_Miranda.aspx</DependentUpon>
