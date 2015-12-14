@@ -10,14 +10,25 @@
         Enter patient OHIP number:
         <asp:TextBox ID="txtPatOHIP" runat="server" Height="31px"></asp:TextBox>
     </p>
+        <p>
+            <asp:Label ID="lblMessage" runat="server"></asp:Label>
+    </p>
     <p>
         Enter doctors name:<asp:TextBox ID="txtDocName" runat="server"></asp:TextBox>
     </p>
     <p>
         Enter doctors surname:<asp:TextBox ID="txtDocSurname" runat="server"></asp:TextBox>
     </p>
+        <p>
+            <asp:Label ID="lblMessage2" runat="server"></asp:Label>
+    </p>
     <p>
         <asp:Button class="button" ID="btnAssign" runat="server" OnClick="btnAssign_Click" Text="Assign" />
+    </p>
+        <p>
+            &nbsp;</p>
+        <p>
+            <asp:Label ID="lblMessage3" runat="server"></asp:Label>
     </p>
 </form>
 </asp:Content>

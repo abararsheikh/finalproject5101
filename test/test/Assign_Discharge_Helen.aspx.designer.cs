@@ -31,6 +31,15 @@ namespace test {
         protected global::System.Web.UI.WebControls.TextBox txtPatOHIP;
         
         /// <summary>
+        /// lblMessage control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblMessage;
+        
+        /// <summary>
         /// txtDocName control.
         /// </summary>
         /// <remarks>
@@ -49,6 +58,15 @@ namespace test {
         protected global::System.Web.UI.WebControls.TextBox txtDocSurname;
         
         /// <summary>
+        /// lblMessage2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblMessage2;
+        
+        /// <summary>
         /// btnAssign control.
         /// </summary>
         /// <remarks>
@@ -56,5 +74,14 @@ namespace test {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnAssign;
+        
+        /// <summary>
+        /// lblMessage3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblMessage3;
     }
 }
