@@ -20,7 +20,7 @@
         <div class="userDropdown">
             <asp:Label ID="lblWelcome" runat="server"></asp:Label>
             <br />
-            <asp:Button ID="btnLogOut" Text="logOut" runat="server" OnClick="btnLogOut_Click" Visible="False" />
+            <asp:Button ID="btnLogOut" CssClass="button" Text="log out" runat="server" OnClick="btnLogOut_Click" Visible="False" />
         </div>
         <div class="bg-animation">
             <!-- 15 spans -->

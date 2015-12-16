@@ -331,6 +331,29 @@ li.show-detail .description {
   color: royalblue;
   border-right: 2px solid deepskyblue;
 }
+.doctorId::before {
+  content: "Doctor ID";
+  border-radius: 2px;
+  padding: 0.5em 1em;
+  margin-right: 1em;
+  width: 100px;
+  text-align: right;
+  display: inline-block;
+  color: royalblue;
+  border-right: 2px solid deepskyblue;
+}
+
+.ohip::before {
+  content: "OHIP";
+  border-radius: 2px;
+  padding: 0.5em 1em;
+  margin-right: 1em;
+  width: 100px;
+  text-align: right;
+  display: inline-block;
+  color: royalblue;
+  border-right: 2px solid deepskyblue;
+}
 
 .sideMenu {
   background: dimgrey;

@@ -50,6 +50,10 @@
                     <p class="name">
                         {{person.first_name}} {{person.last_name}}
                     </p>
+                    <p class="ohip" ng-if="person.OHIP">{{person.OHIP}}</p>
+                    <p class="doctorId" ng-if="person.doctor_id">{{person.doctor_id}}</p>
+                    
+
                     <p class="doctor-specialty"
                         ng-if="person.speciality">
                         {{person.speciality}}
