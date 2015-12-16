@@ -1,14 +1,16 @@
 ﻿<%@ Page MasterPageFile="~/BRDHC.Master" Language="C#" AutoEventWireup="true" CodeBehind="Search_Yi.aspx.cs" Inherits="test.Search_form_Yi" %>
 
     <asp:Content ContentPlaceHolderID="content" runat="server">
+
         <div class="search"
             ng-app="doctorSearch" ng-controller="SearchController as search">
-        <form id="search" runat="server">
+
+        <div id="search-wrapper">
             <input class="searchBar" id="searchBox" type="text" placeholder="search.."
                 ng-model="search.searchText" />
             <span class="leftborder"></span>
             <span class="rightborder"></span>
-        </form>
+        </div>
 
         <div class="search-tabs">
             <input id="lblDoctors" type="radio" name="type" checked="checked" />
