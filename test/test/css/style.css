@@ -19,9 +19,11 @@ body{
 }
 
 /* search bar */
-.search form {
+.search form  {
   width: 500px;
+  height: auto;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .search input[type="text"] {
@@ -49,11 +51,8 @@ input.searchBar:focus {
 
 form {
   position: relative;
-  overflow: hidden;
-    top: -2px;
-    left: -2px;
-    height: 427px;
-    width: 1423px;
+  
+   
 }
 
 .search input ~ span {

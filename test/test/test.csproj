@@ -76,7 +76,7 @@
       <DependentUpon>HospitalDB.mdf</DependentUpon>
     </Content>
     <Content Include="Assign_Discharge_Helen.aspx" />
-    <Content Include="css\search.css" />
+    <Content Include="css\style.css" />
     <Content Include="Doctors_Bin.aspx" />
     <Content Include="getData.aspx" />
     <Content Include="Global.asax" />

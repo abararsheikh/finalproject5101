@@ -3,7 +3,7 @@
     <asp:Content ContentPlaceHolderID="content" runat="server">
         <div class="search"
             ng-app="doctorSearch" ng-controller="SearchController as search">
-        <form id="form1" runat="server">
+        <form id="search" runat="server">
             <input class="searchBar" id="searchBox" type="text" placeholder="search.."
                 ng-model="search.searchText" />
             <span class="leftborder"></span>
