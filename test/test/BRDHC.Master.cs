@@ -18,7 +18,7 @@ namespace test
                 lblWelcome.Text = "Hello, " + u.userName;
                 btnLogOut.Visible = Visible;
             }
-            else if(Request.QueryString["r"] == "true")
+            else if(Request.QueryString["r"] != null)
             {
                 lblRedirect.Text = "Please log in first";
             }

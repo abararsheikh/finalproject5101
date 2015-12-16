@@ -11,6 +11,9 @@ namespace test
         private const string LOGIN_PAGE = "LogIn_Miranda.aspx";
         private string _userName;
         private bool _isLoggedIn = false;
+        private string _currentPage = Path.GetFileName(HttpContext.Current.Request.Url.AbsolutePath);
+        
+
 
         public Auth()
         {
@@ -21,14 +24,25 @@ namespace test
         {
             userName = name;
             isLoggedIn = true;
+            redirect();
         }
 
-        public void logIncheck()
+        private void logIncheck()
         {
-            if(!isLoggedIn && Path.GetFileName( HttpContext.Current.Request.Url.AbsolutePath) != LOGIN_PAGE)
+
+            if(!isLoggedIn && _currentPage != LOGIN_PAGE)
             {
-                HttpContext.Current.Response.Redirect(LOGIN_PAGE + "?r=true" );
+                HttpContext.Current.Response.Redirect(LOGIN_PAGE + "?r=" + _currentPage );
             }
+        }
+        
+        private void redirect()
+        {
+            if(HttpContext.Current.Request.QueryString["r"] != null)
+            {
+                HttpContext.Current.Response.Redirect(HttpContext.Current.Request.QueryString["r"]);
+            }
+            
         }
 
         public string userName
