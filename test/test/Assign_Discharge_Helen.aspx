@@ -2,7 +2,6 @@
 
 <asp:Content ContentPlaceHolderID="content" runat="server">
 
-    <form id="form1" runat="server" style="left: 1px; top: -45px; height: 798px">
       <table>
   <tr>
   
@@ -178,5 +177,4 @@
 
 
     </table>
-</form>
 </asp:Content>

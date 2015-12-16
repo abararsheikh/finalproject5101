@@ -113,6 +113,7 @@
     <Compile Include="Assign_Discharge_Helen.aspx.designer.cs">
       <DependentUpon>Assign_Discharge_Helen.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Auth.cs" />
     <Compile Include="BRDHC.Master.cs">
       <DependentUpon>BRDHC.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

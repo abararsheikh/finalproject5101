@@ -31,13 +31,14 @@ namespace test
             try
             {
                 json.setQueryString();
+                Response.Write(json.getJsonData());
             }
             catch (Exception ex)
             {
                 Response.Write(ex);
             }
 
-            Response.Write(json.getJsonData());
+            
         }
     }
 }

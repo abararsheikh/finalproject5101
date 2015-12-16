@@ -4,7 +4,6 @@
 <asp:Content ContentPlaceHolderID="content" runat="server">
 
    
-    <form id="form1" runat="server" style =" background-color:aquamarine;">
         <p>
             &nbsp;</p>
         <p>
@@ -110,6 +109,5 @@
 
             </asp:GridView>
         </p>
-    </form>
 
 </asp:Content>

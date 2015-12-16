@@ -50,6 +50,9 @@ namespace test
                 //check to see if user is in database
                 if (reader.HasRows)
                 {
+                    // user login.
+                    Auth u = new Auth(userName);
+
                     Response.Redirect("Doctors_Bin.aspx");
                     lblMessage.ForeColor = Color.Green;
                 }

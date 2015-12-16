@@ -1,7 +1,6 @@
 ﻿<%@ Page MasterPageFile="~/BRDHC.Master" Language="C#" AutoEventWireup="true" CodeBehind="Doctors_Bin.aspx.cs" Inherits="test.Doctors_page_Bin" %>
 
 <asp:Content ContentPlaceHolderID="content" runat="server">
-    <form id="form1" runat="server">
     <div>
     
         <table style="width: 60%; margin: auto;">
@@ -81,5 +80,4 @@
         </table>
     
     </div>
-    </form>
 </asp:Content>

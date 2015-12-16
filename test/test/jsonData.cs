@@ -77,7 +77,6 @@ namespace test
                 con.Open();
                 using (SqlDataReader reader = cmd.ExecuteReader())
                 {
-                    //source http://www.c-sharpcorner.com/Blogs/13292/serialize-and-deserialize-objects-to-json-using-C-Sharp.aspx
                     DataTable dt = new DataTable();
                     dt.Load(reader);
                     string jsonData = JsonConvert.SerializeObject(dt);

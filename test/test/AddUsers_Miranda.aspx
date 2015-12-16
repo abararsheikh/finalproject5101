@@ -2,7 +2,6 @@
 
 <asp:Content ContentPlaceHolderID="content" runat="server">
 
-    <form id="form1" runat="server">
     <div>
     
         Add User to Database:<br />
@@ -31,6 +30,5 @@
         <br />
     
     </div>
-    </form>
 
 </asp:Content>

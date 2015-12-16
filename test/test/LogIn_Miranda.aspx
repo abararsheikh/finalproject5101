@@ -1,7 +1,6 @@
 ﻿<%@ Page  MasterPageFile="~/BRDHC.Master" Language="C#" AutoEventWireup="true" CodeBehind="LogIn_Miranda.aspx.cs" Inherits="test.LogIn_page_Miranda" %>
 
 <asp:Content ContentPlaceHolderID="content" runat="server">
-    <form id="form1" runat="server" class="auto-style3">
      <div>
     
         <h1 class="auto-style1">Enter login information:
@@ -23,6 +22,5 @@
         <asp:Label ID="lblMessage" runat="server" Font-Names="Calibri"></asp:Label>
     
     </div>
-        </form>
 
 </asp:Content>

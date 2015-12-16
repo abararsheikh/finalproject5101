@@ -14,11 +14,14 @@
     <link href="css/style.css" rel="stylesheet" />
 </head>
 <body>
-
+    <form id="mainForm" runat="server">
     <header class="cpHeader">
         <h1><a href="#">My BRDHC</a></h1>
-  
-
+        <div class="userDropdown">
+            <asp:Label ID="lblWelcome" runat="server"></asp:Label>
+            <br />
+            <asp:Button ID="btnLogOut" Text="logOut" runat="server" OnClick="btnLogOut_Click" Visible="False" />
+        </div>
         <div class="bg-animation">
             <!-- 15 spans -->
             <span></span>
@@ -51,11 +54,13 @@
 
         <!-- content here -->
         <div class="content">
+            <asp:Label ID="lblRedirect" runat="server" ForeColor="Red"></asp:Label>
+            
             <asp:ContentPlaceHolder id="content" runat="server">
 
             </asp:ContentPlaceHolder>
         </div>
     </main>
-    
+    </form>
 </body>
 </html>
