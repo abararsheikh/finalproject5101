@@ -3,6 +3,7 @@
 
 <asp:Content ContentPlaceHolderID="content" runat="server">
 
+   
     <form id="form1" runat="server" style =" background-color:aquamarine;">
         <p>
             &nbsp;</p>
@@ -46,23 +47,23 @@
                     <td class="auto-style1">Date In </td>
                     <td style="margin-left: 120px">
                         <asp:TextBox ID="txtDateIn" runat="server"></asp:TextBox>
-                    &nbsp; Date Formate : mm/dd/yyyy
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Date Formate : mm/dd/yyyy
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="txtDateIn" ErrorMessage="Date is requiered" ForeColor="Red" ValidationGroup="valGroup1"></asp:RequiredFieldValidator>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <br />
                     </td>
+                </tr>
+                <tr>
+                    <td class="auto-style1">&nbsp;</td>
+                    <td style="margin-left: 120px">
+                        &nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style2">Department</td>
                     <td class="auto-style2" style="margin-left: 120px">
-                        <asp:DropDownList ID="ddlDepartment" runat="server" AutoPostBack="true" OnSelectedIndexChanged="ddlDepartment_SelectedIndexChanged">
-                            <asp:ListItem Value="-1">Select Department</asp:ListItem>
-                            <asp:ListItem Value="General">General</asp:ListItem>
-                            <asp:ListItem Value="Emergency">Emergency</asp:ListItem>
-                            <asp:ListItem Value="Cancer Care Unit">Cancer Care Unit</asp:ListItem>
-                            <asp:ListItem Value="Surgical">Surgical</asp:ListItem>
-                            <asp:ListItem Value="Children's Ward">Children&#39;s Ward</asp:ListItem>
-                        </asp:DropDownList>
+                        <asp:TextBox ID="txtDepartment" runat="server"></asp:TextBox>
                     &nbsp;&nbsp;&nbsp;
-                        <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="ddlDepartment" ErrorMessage="Department name is requiered" ForeColor="Red" InitialValue="-1" ValidationGroup="valGroup1"></asp:RequiredFieldValidator>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="txtDepartment" ErrorMessage="Please enter department" ForeColor="Red" ValidationGroup="valGroup1"></asp:RequiredFieldValidator>
                     </td>
                 </tr>
                 <tr>
