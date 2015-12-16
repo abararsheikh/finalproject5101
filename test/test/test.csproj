@@ -83,13 +83,8 @@
     <Content Include="Homepage_Miranda.aspx" />
     <Content Include="LogIn_Miranda.aspx" />
     <Content Include="packages.config" />
-    <Content Include="Scripts\angular-animate.js" />
     <Content Include="Scripts\angular-animate.min.js" />
-    <Content Include="Scripts\angular-mocks.js" />
-    <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
-    <Content Include="Scripts\angular.min.js.map" />
-    <Content Include="Scripts\angular-animate.min.js.map" />
     <Content Include="BRDHC.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -150,6 +145,7 @@
     <Compile Include="Homepage_Miranda.aspx.designer.cs">
       <DependentUpon>Homepage_Miranda.aspx</DependentUpon>
     </Compile>
+    <Compile Include="jsonData.cs" />
     <Compile Include="LogIn_Miranda.aspx.cs">
       <DependentUpon>LogIn_Miranda.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -172,7 +168,6 @@
     <Compile Include="Search_Yi.aspx.designer.cs">
       <DependentUpon>Search_Yi.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Yi.cs" />
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>

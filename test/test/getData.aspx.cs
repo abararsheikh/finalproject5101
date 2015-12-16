@@ -1,4 +1,12 @@
-﻿using System;
+﻿/**
+* Author: Yi Zhao
+*
+* Description: This is an empty page only responses to certain query strings.
+* Purpose: Returns data that will be used in search page.
+*   
+*/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -13,23 +21,23 @@ namespace test
 {
     public partial class getData : System.Web.UI.Page
     {
-
+        
         protected void Page_Load(object sender, EventArgs e)
         {
-
-            Yi yi = new Yi();
-            yi.TableName = Request.QueryString["t"];
+            
+            jsonData json = new jsonData();
+            json.TableName = Request.QueryString["t"];
            
             try
             {
-                yi.setQueryString();
-                Response.Write(yi.getJsonData());
+                json.setQueryString();
             }
             catch (Exception ex)
             {
                 Response.Write(ex);
             }
-            
+
+            Response.Write(json.getJsonData());
         }
     }
 }

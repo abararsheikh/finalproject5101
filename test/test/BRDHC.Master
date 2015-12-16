@@ -55,6 +55,8 @@
                 <li><a href="Search_Yi.aspx">Search</a></li>
             </ul>
         </div>
+
+        <!-- content here -->
         <div class="content">
             <asp:ContentPlaceHolder id="content" runat="server">
 

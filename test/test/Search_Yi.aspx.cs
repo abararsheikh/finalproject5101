@@ -1,4 +1,13 @@
-﻿using System;
+﻿/**
+* Author: Yi Zhao
+*
+* Description: 
+*    This page does not have any C# code in it. The search funciton uses AngularJS.
+*    Please go to getData.aspx or jsonData.cs for C# code.
+*
+*/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
