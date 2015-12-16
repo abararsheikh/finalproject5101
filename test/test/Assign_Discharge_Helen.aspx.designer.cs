@@ -13,6 +13,15 @@ namespace test {
     public partial class Assign___Discharge__Helen {
         
         /// <summary>
+        /// lblAssign control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblAssign;
+        
+        /// <summary>
         /// txtPatOHIP control.
         /// </summary>
         /// <remarks>
@@ -76,6 +85,15 @@ namespace test {
         protected global::System.Web.UI.WebControls.Label lblMessage3;
         
         /// <summary>
+        /// lblDisharge control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblDisharge;
+        
+        /// <summary>
         /// txtOhip control.
         /// </summary>
         /// <remarks>
@@ -83,6 +101,15 @@ namespace test {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtOhip;
+        
+        /// <summary>
+        /// lblCheck control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblCheck;
         
         /// <summary>
         /// btnCheck control.
@@ -128,15 +155,6 @@ namespace test {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnDischarge;
-        
-        /// <summary>
-        /// lblCheck control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblCheck;
         
         /// <summary>
         /// lblDischarge control.

@@ -3,14 +3,17 @@
 <asp:Content ContentPlaceHolderID="content" runat="server">
 
       <table>
-  <tr>
-  
-    <p>
-        &nbsp;</p>
-        <h2>
-        Assign patient to doctor:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    </h2>
-   </tr>
+          <tr>
+      <td style="height: 129px;" colspan="4">
+          <h2>
+        Assign patient to doctor:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+          <h3>
+              <asp:Label ID="lblAssign" runat="server"></asp:Label>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </h3>
+              </td>
+      </tr>
+
           <tr>
       <td style="width: 408px; height: 79px;">
     <p>
@@ -41,19 +44,19 @@
       </tr>
 
         <tr>
-            <td style="width: 408px; height: 86px">
+            <td style="width: 408px; height: 79px">
         <p>
             <asp:Label ID="lblMessage" runat="server"></asp:Label>
     </p>
             </td>
-            <td style="width: 428px; height: 86px;">
+            <td style="width: 428px; height: 79px;">
  <p>
             <asp:Label ID="lblMessage2" runat="server"></asp:Label>
     </p>   
 
             </td>
-            <td style="width: 406px; height: 86px;"></td>
-            <td style="width: 145px; height: 86px;"></td>
+            <td style="width: 406px; height: 79px;"></td>
+            <td style="width: 145px; height: 79px;"></td>
         </tr>
         <tr>
             <p>
@@ -80,15 +83,26 @@
   
     <p>
         &nbsp;</p>
-        <h2>
+       
+   </tr>
+          <tr>
+      <td style="height: 156px" colspan="4">
+           <h2>
         Discharge patient:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     </h2>
-   </tr>
+           <h3>
+               <asp:Label ID="lblDisharge" runat="server"></asp:Label>
+    </h3></td>
+      </tr>
+
           <tr>
       <td style="width: 408px; height: 252px">
     <p style="text-align: left">
         Enter patient OHIP number:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:TextBox ID="txtOhip" runat="server" Height="31px"></asp:TextBox>
+    </p>
+        <p>
+            <asp:Label ID="lblCheck" runat="server"></asp:Label>
     </p>
           <p style="text-align: left">
               &nbsp;</p>
@@ -150,19 +164,6 @@
             &nbsp;</p>
       </tr>
 
-        <tr>
-            <td style="width: 408px; height: 80px;">
-        <p>
-            <asp:Label ID="lblCheck" runat="server"></asp:Label>
-    </p>
-            </td>
-            <td style="width: 428px; height: 80px;">
- 
-
-            </td>
-            <td style="width: 406px; height: 80px;"></td>
-            <td style="width: 145px; height: 80px;"></td>
-        </tr>
         <tr>
             <p>
             <asp:Label ID="lblDischarge" runat="server"></asp:Label>
