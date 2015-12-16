@@ -40,7 +40,7 @@ angular.module('doctorSearch', ['ngAnimate'])
     search.searchText = '';
 
     // A show-detail toggle under patients table
-    search.toggleDetail = function () {
+    search.toggleDetail = function (person) {
         person.showDetail = !person.showDetail;
     };
 

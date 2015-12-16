@@ -17,14 +17,7 @@
 
     <header class="cpHeader">
         <h1><a href="#">My BRDHC</a></h1>
-        <div class="userDropdown">
-            <p class="userDropdown-name" >
-                user name
-            </p>
-            <p class="userDropdown-description">
-                description words
-            </p>
-        </div>
+  
 
         <div class="bg-animation">
             <!-- 15 spans -->
@@ -48,7 +41,7 @@
     <main>
         <div class="sideMenu">
             <ul>
-                <li><a href="#">General</a></li>
+                <li><a href="AddUsers_Miranda.aspx">Add User</a></li>
                 <li><a href="Doctors_Bin.aspx">Doctors</a></li>
                 <li><a href="Patients_Abrar.aspx">Patients</a></li>
                 <li><a href="Assign_Discharge_Helen.aspx">Discharge</a></li>

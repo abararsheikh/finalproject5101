@@ -50,7 +50,7 @@ namespace test
                 //check to see if user is in database
                 if (reader.HasRows)
                 {
-                    Response.Redirect("HomePage-Miranda.aspx");
+                    Response.Redirect("Doctors_Bin.aspx");
                     lblMessage.ForeColor = Color.Green;
                 }
                 //catch users who aren't in database

@@ -21,20 +21,20 @@
          
 
                 </td>
-      <td>
+      <td style="width: 342px">
     <p>
         Enter doctors name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:TextBox ID="txtDocName" runat="server" Height="31px"></asp:TextBox>
     </p>
           
           </td>
-      <td>
+      <td style="width: 458px">
     <p>
         Enter doctors surname:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:TextBox ID="txtDocSurname" runat="server" Height="31px"></asp:TextBox>
     </p>
           </td>
-      <td>
+      <td style="width: 268px">
     <p>
-        <asp:Button class="button" ID="btnAssign" runat="server" OnClick="btnAssign_Click" Text="Assign" style="left: 0px; top: 15px" />
+        <asp:Button class="button" ID="btnAssign" runat="server" OnClick="btnAssign_Click" Text="Assign" style="left: 0px; top: 3px" />
     </p>
           </td>
         <p>
@@ -47,14 +47,14 @@
             <asp:Label ID="lblMessage" runat="server"></asp:Label>
     </p>
             </td>
-            <td>
+            <td style="width: 342px">
  <p>
             <asp:Label ID="lblMessage2" runat="server"></asp:Label>
     </p>   
 
             </td>
-            <td></td>
-            <td></td>
+            <td style="width: 458px"></td>
+            <td style="width: 268px"></td>
         </tr>
         <tr>
             <p>
@@ -104,7 +104,7 @@
          
 
                 </td>
-      <td>
+      <td style="width: 342px">
     <p>
         <asp:Button class="button" ID="btnCheck" runat="server" Text="Check"  style="left: 0px; top: 15px" OnClick="btnCheck_Click" />
     </p>
@@ -122,7 +122,7 @@
               &nbsp;</p>
           
           </td>
-      <td>
+      <td style="width: 458px">
     <p>
         Choose discharge date:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:TextBox ID="txtDate" runat="server" Height="31px"></asp:TextBox>
           </p>
@@ -130,9 +130,9 @@
               <asp:Calendar ID="DischargeCalendar" runat="server" OnSelectionChanged="DischargeCalendar_SelectionChanged"></asp:Calendar>
           </asp:Panel>
           </td>
-      <td>
+      <td style="width: 268px">
     <p>
-        <asp:Button class="button" ID="btnDischarge" runat="server" OnClick="btnDischarge_Click" Text="Discharge" />
+        <asp:Button class="button" ID="btnDischarge" runat="server" OnClick="btnDischarge_Click" Text="Discharge" style="left: 0px; top: 6px" />
     </p>
           <p>
               &nbsp;</p>
@@ -157,12 +157,12 @@
             <asp:Label ID="lblCheck" runat="server"></asp:Label>
     </p>
             </td>
-            <td>
+            <td style="width: 342px">
  
 
             </td>
-            <td></td>
-            <td></td>
+            <td style="width: 458px"></td>
+            <td style="width: 268px"></td>
         </tr>
         <tr>
             <p>
