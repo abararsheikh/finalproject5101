@@ -1,0 +1,254 @@
+/*
+ * Doctor list animation
+ */
+@-webkit-keyframes appear {
+  from {
+    -webkit-transform: translateX(100vw);
+            transform: translateX(100vw);
+  }
+  to {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+@keyframes appear {
+  from {
+    -webkit-transform: translateX(100vw);
+            transform: translateX(100vw);
+  }
+  to {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@-webkit-keyframes disappear {
+  to {
+    opacity: 0;
+    -webkit-transform: translateY(200px);
+            transform: translateY(200px);
+  }
+}
+
+@keyframes disappear {
+  to {
+    opacity: 0;
+    -webkit-transform: translateY(200px);
+            transform: translateY(200px);
+  }
+}
+
+li:hover {
+  -webkit-transform: scale(1.02);
+      -ms-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
+li.ng-enter {
+  -webkit-animation: appear 0.5s;
+          animation: appear 0.5s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+li.ng-leave {
+  -webkit-animation: disappear 0.5s;
+          animation: disappear 0.5s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+li {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+li.show-detail {
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
+  background-color: lightskyblue;
+  border-color: grey;
+}
+
+li.show-detail .brief {
+  display: none;
+}
+
+li.show-detail .description {
+  display: block;
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
+}
+
+/* search bar */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+input[type="text"] {
+  font-size: 1.5em;
+  padding: 0.5em;
+  display: block;
+  margin: 0 auto;
+}
+
+input.searchBar {
+  border: none;
+  outline: none;
+  text-align: center;
+  width: 150px;
+  border-bottom: 2px solid lightskyblue;
+  -webkit-transition: width 0.5s 1s;
+  transition: width 0.5s 1s;
+}
+
+input.searchBar:focus {
+  width: 300px;
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
+}
+
+form {
+  position: relative;
+  overflow: hidden;
+}
+
+input ~ span {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 0px;
+  border-left: 2px solid lightskyblue;
+  border-top: 2px solid lightskyblue;
+}
+
+input ~ .leftborder {
+  left: 50%;
+  -webkit-transform: translate(-150px, 100%);
+      -ms-transform: translate(-150px, 100%);
+          transform: translate(-150px, 100%);
+  -webkit-transition: width 0.5s linear, -webkit-transform 0.5s linear 0.5s;
+  transition: width 0.5s linear, -webkit-transform 0.5s linear 0.5s;
+  transition: width 0.5s linear, transform 0.5s linear 0.5s;
+  transition: width 0.5s linear, transform 0.5s linear 0.5s, -webkit-transform 0.5s linear 0.5s;
+}
+
+input ~ .rightborder {
+  right: 50%;
+  -webkit-transform: translate(150px, 100%) rotateY(180deg);
+          transform: translate(150px, 100%) rotateY(180deg);
+  -webkit-transition: width 0.5s linear, -webkit-transform 0.5s linear 0.5s;
+  transition: width 0.5s linear, -webkit-transform 0.5s linear 0.5s;
+  transition: width 0.5s linear, transform 0.5s linear 0.5s;
+  transition: width 0.5s linear, transform 0.5s linear 0.5s, -webkit-transform 0.5s linear 0.5s;
+}
+
+input:focus ~ .leftborder {
+  width: 150px;
+  -webkit-transform: translate(-150px, 0);
+      -ms-transform: translate(-150px, 0);
+          transform: translate(-150px, 0);
+  -webkit-transition: width 0.5s linear 1s, -webkit-transform 0.5s linear 0.5s;
+  transition: width 0.5s linear 1s, -webkit-transform 0.5s linear 0.5s;
+  transition: transform 0.5s linear 0.5s, width 0.5s linear 1s;
+  transition: transform 0.5s linear 0.5s, width 0.5s linear 1s, -webkit-transform 0.5s linear 0.5s;
+}
+
+input:focus ~ .rightborder {
+  width: 150px;
+  -webkit-transform: translate(150px, 0) rotateY(180deg);
+          transform: translate(150px, 0) rotateY(180deg);
+  -webkit-transition: width 0.5s linear 1s, -webkit-transform 0.5s linear 0.5s;
+  transition: width 0.5s linear 1s, -webkit-transform 0.5s linear 0.5s;
+  transition: transform 0.5s linear 0.5s, width 0.5s linear 1s;
+  transition: transform 0.5s linear 0.5s, width 0.5s linear 1s, -webkit-transform 0.5s linear 0.5s;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1em calc(50% - 500px);
+  overflow-x: hidden;
+}
+
+/* search tabs */
+.search-tabs {
+  overflow: hidden;
+  margin-top: 1;
+  padding-top: 1em;
+  width: 50%;
+  white-space: nowrap;
+}
+
+.search-tabs input[type="radio"] {
+  position: absolute;
+  left: -9999px;
+}
+
+.tab {
+  position: relative;
+  display: inline-block;
+  top: 15px;
+  background-color: grey;
+  color: white;
+  padding: 1em;
+  border-radius: 10px 10px 0 0;
+  cursor: pointer;
+  -webkit-transition: 0.3s cubic-bezier(0, 1.85, 0.58, 1.33);
+  transition: 0.3s cubic-bezier(0, 1.85, 0.58, 1.33);
+}
+
+.tab-selected {
+  top: 5px;
+  color: black;
+  background-color: deepskyblue;
+}
+
+/* search result */
+ul {
+  padding: 0;
+  border-top: 2px solid deepskyblue;
+  margin-top: 0;
+}
+
+li {
+  position: relative;
+  list-style: none;
+  line-height: 1.5;
+  padding: 0.5em 2em;
+  margin: 1em;
+  background-color: lightgrey;
+  border-left: 10px solid deepskyblue;
+}
+
+.description {
+  display: none;
+}
+
+.name::before {
+  content: "Name";
+  border-radius: 2px;
+  padding: 0.5em 1em;
+  margin-right: 1em;
+  width: 100px;
+  text-align: right;
+  display: inline-block;
+  color: royalblue;
+  border-right: 2px solid deepskyblue;
+}
+
+.doctor-specialty::before {
+  content: "Sepcialty";
+  border-radius: 2px;
+  padding: 0.5em 1em;
+  margin-right: 1em;
+  width: 100px;
+  text-align: right;
+  display: inline-block;
+  color: royalblue;
+  border-right: 2px solid deepskyblue;
+}
