@@ -1,0 +1,66 @@
+G:\School\5101\finalproject\finalproject5101\test\test\bin\roslyn\csc.exe
+G:\School\5101\finalproject\finalproject5101\test\test\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\School\5101\finalproject\finalproject5101\test\test\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\School\5101\finalproject\finalproject5101\test\test\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\School\5101\finalproject\finalproject5101\test\test\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\School\5101\finalproject\finalproject5101\test\test\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\School\5101\finalproject\finalproject5101\test\test\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\School\5101\finalproject\finalproject5101\test\test\bin\roslyn\System.Collections.Immutable.dll
+G:\School\5101\finalproject\finalproject5101\test\test\bin\roslyn\System.Reflection.Metadata.dll
+G:\School\5101\finalproject\finalproject5101\test\test\bin\roslyn\vbc.exe
+G:\School\5101\finalproject\finalproject5101\test\test\bin\roslyn\VBCSCompiler.exe
+G:\School\5101\finalproject\finalproject5101\test\test\bin\roslyn\VBCSCompiler.exe.config
+G:\School\5101\finalproject\finalproject5101\test\test\bin\test.dll.config
+G:\School\5101\finalproject\finalproject5101\test\test\bin\test.dll
+G:\School\5101\finalproject\finalproject5101\test\test\bin\test.pdb
+G:\School\5101\finalproject\finalproject5101\test\test\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\School\5101\finalproject\finalproject5101\test\test\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\School\5101\finalproject\finalproject5101\test\test\obj\Debug\test.csprojResolveAssemblyReference.cache
+G:\School\5101\finalproject\finalproject5101\test\test\obj\Debug\test.dll
+G:\School\5101\finalproject\finalproject5101\test\test\obj\Debug\test.pdb
+G:\School\5101\finalproject\finalproject5101\test\test\bin\Newtonsoft.Json.dll
+G:\School\5101\finalproject\finalproject5101\test\test\bin\Newtonsoft.Json.xml
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\bin\roslyn\csc.exe
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\bin\roslyn\System.Collections.Immutable.dll
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\bin\roslyn\System.Reflection.Metadata.dll
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\bin\roslyn\vbc.exe
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\bin\roslyn\VBCSCompiler.exe
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\bin\roslyn\VBCSCompiler.exe.config
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\bin\test.dll.config
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\bin\test.dll
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\bin\test.pdb
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\bin\Newtonsoft.Json.dll
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\bin\Newtonsoft.Json.xml
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\obj\Debug\test.csprojResolveAssemblyReference.cache
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\obj\Debug\test.dll
+E:\College\Web appl development TATLA\Final project\New folder\finalproject5101\test\test\obj\Debug\test.pdb
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\bin\roslyn\csc.exe
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\bin\roslyn\vbc.exe
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\bin\test.dll.config
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\bin\test.dll
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\bin\test.pdb
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\bin\Newtonsoft.Json.dll
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\bin\Newtonsoft.Json.xml
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\obj\Debug\test.csprojResolveAssemblyReference.cache
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\obj\Debug\test.dll
+C:\Users\Sungiel\Documents\GitHub\finalproject5101\test\test\obj\Debug\test.pdb

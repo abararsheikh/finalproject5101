@@ -1,0 +1,66 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="BRDHC.master.cs" Inherits="test.BRDHC" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Blind River</title>
+
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/angular-animate.min.js"></script>
+    <script src="Scripts/app.js"></script>
+    
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css' />
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="mainForm" runat="server">
+    <header class="cpHeader">
+        <h1><a href="#">My BRDHC</a></h1>
+        <div class="userDropdown">
+            <asp:Label ID="lblWelcome" runat="server"></asp:Label>
+            <br />
+            <asp:Button ID="btnLogOut" CssClass="button" Text="log out" runat="server" OnClick="btnLogOut_Click" Visible="False" />
+        </div>
+        <div class="bg-animation">
+            <!-- 15 spans -->
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <main>
+        <div class="sideMenu">
+            <ul>
+                <li><a href="AddUsers_Miranda.aspx">Add User</a></li>
+                <li><a href="Doctors_Bin.aspx">Doctors</a></li>
+                <li><a href="Patients_Abrar.aspx">Patients</a></li>
+                <li><a href="Assign_Discharge_Helen.aspx">Discharge</a></li>
+                <li><a href="Search_Yi.aspx">Search</a></li>
+            </ul>
+        </div>
+
+        <!-- content here -->
+        <div class="content">
+            <asp:Label ID="lblRedirect" runat="server" ForeColor="Red"></asp:Label>
+            
+            <asp:ContentPlaceHolder id="content" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+    </main>
+    </form>
+</body>
+</html>
